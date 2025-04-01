@@ -5,7 +5,7 @@ Mnogi fitnes navdušenci nimajo specifične platforme, ki bi jim pomagala pri is
 
 ### Rešitev
 FitConnect je spletna aplikacija, ki ponuja:
-- **Iskanje vadbenih partnerjev** na podlagi ciljev, nivoja znanja in urnikov, kar omogoča lažje povezovanje z ljudmi, ki so na podobni ravni.
+- **Iskanje vadbenih partnerjev** na podlagi ciljev in nivoja znanja, kar omogoča lažje povezovanje z ljudmi, ki so na podobni ravni.
 - **Deljenje napredka** znotraj aplikacije, kar omogoča uporabnikom, da spremljajo svoj napredek, si izmenjujejo izkušnje in nasvete ter se motivirajo znotraj skupnosti.
 
 ### Ciljna skupina
