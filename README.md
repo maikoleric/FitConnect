@@ -1,7 +1,7 @@
 # FitConnect
 
 ### Problem
-Mnogi fitnes navdušenci nimajo specifične platforme, ki bi jim pomagala pri iskanju vadbenih partnerjev znotraj svojih ciljev, nivoja znanja in urnikov. Prav tako jim pogosto manjka prostor za izmenjavo napredka in nasvetov z drugimi, ki imajo podobne cilje.
+Mnogi fitnes navdušenci nimajo specifične platforme, ki bi jim pomagala pri iskanju vadbenih partnerjev znotraj svojih ciljev in nivoja znanja. Prav tako jim pogosto manjka prostor za izmenjavo napredka z drugimi, ki imajo podobne cilje.
 
 ### Rešitev
 FitConnect je spletna aplikacija, ki ponuja:
@@ -39,7 +39,7 @@ FitConnect je prilagojena potrebam **fitnes skupnosti**, kar omogoča boljše iz
 Povezovanje z drugimi uporabniki, ki imajo **podobne cilje in nivo znanja**, omogoča lažje usklajevanje skupnih vadb. Uporabniki se lahko **motivirajo in si medsebojno pomagajo**.
 
 #### Krepitev fitnes skupnosti
-FitConnect omogoča **izmenjavo nasvetov, motivacije in izkušenj** znotraj skupnosti, kar uporabnikom pomaga pri njihovem napredku in povečuje občutek pripadnosti.
+FitConnect omogoča **izmenjavo nasvetov in motivacije** znotraj skupnosti, kar uporabnikom pomaga pri njihovem napredku in povečuje občutek pripadnosti.
 
 ---
 
