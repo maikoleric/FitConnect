@@ -36,7 +36,7 @@ FitConnect je specifično zasnovan za fitnes skupnost, medtem ko splošne platfo
 FitConnect je prilagojena potrebam **fitnes skupnosti**, kar omogoča boljše izkušnje za uporabnike, ki želijo predvsem izboljšati svojo fitnes rutino in najti primerne vadbene partnerje.
 
 #### Povezovanje uporabnikov glede na cilje
-Povezovanje z drugimi uporabniki, ki imajo **podobne cilje, nivo znanja in urnike**, omogoča lažje usklajevanje skupnih vadb. Uporabniki se lahko **motivirajo in si medsebojno pomagajo**.
+Povezovanje z drugimi uporabniki, ki imajo **podobne cilje in nivo znanja**, omogoča lažje usklajevanje skupnih vadb. Uporabniki se lahko **motivirajo in si medsebojno pomagajo**.
 
 #### Krepitev fitnes skupnosti
 FitConnect omogoča **izmenjavo nasvetov, motivacije in izkušenj** znotraj skupnosti, kar uporabnikom pomaga pri njihovem napredku in povečuje občutek pripadnosti.
