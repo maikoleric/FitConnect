@@ -1,7 +1,5 @@
 # FitConnect
 
-## 1. Identifikacija problema in rešitev
-
 ### Problem
 Mnogi fitnes navdušenci nimajo specifične platforme, ki bi jim pomagala pri iskanju vadbenih partnerjev znotraj svojih ciljev, nivoja znanja in urnikov. Prav tako jim pogosto manjka prostor za izmenjavo napredka in nasvetov z drugimi, ki imajo podobne cilje.
 
@@ -17,8 +15,6 @@ FitConnect je zasnovan za ljudi **od 14. leta naprej**, ki redno obiskujejo fitn
 FitConnect je specifično zasnovan za fitnes skupnost, medtem ko splošne platforme, kot so **Instagram, MyFitnessPal in Strava**, niso usmerjene v specifične funkcionalnosti za fitnes, kot so iskanje vadbenih partnerjev ali enostavno načrtovanje skupnih vadb. Naša aplikacija natančno povezuje uporabnike glede na njihove fitnes cilje, kar omogoča bolj ciljno usmerjeno povezovanje in večjo interakcijo.
 
 ---
-
-## 2. Analiza trga
 
 ### Konkurenčna analiza
 
@@ -47,4 +43,3 @@ FitConnect omogoča **izmenjavo nasvetov, motivacije in izkušenj** znotraj skup
 
 ---
 
-Zato je **FitConnect boljša izbira**, saj ponuja specifične funkcionalnosti, ki jih druge platforme ne nudijo, kar omogoča boljše uporabniške izkušnje in večjo motivacijo pri doseganju fitnes ciljev.
