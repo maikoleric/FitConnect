@@ -43,3 +43,56 @@ FitConnect omogoča **izmenjavo nasvetov in motivacije** znotraj skupnosti, kar 
 
 ---
 
+## SWOT analiza
+
+| **PREDNOSTI (S)** | **SLABOSTI (W)** |
+|------------------|------------------|
+| Specifično usmerjena platforma za fitnes navdušence | Omejeni začetni finančni viri |
+| Napreden algoritem za iskanje vadbenih partnerjev | Potreba po zadostnem številu uporabnikov za učinkovitost |
+| Močna skupnostna komponenta za deljenje napredka | Izzivi pri moderiranju vsebine |
+| Povezava z drugimi fitnes aplikacijami (npr. MyFitnessPal) | Pomanjkanje izkušenj ekipe z razvojem socialnih platform |
+
+| **PRILOŽNOSTI (O)** | **GROŽNJE (T)** |
+|------------------|------------------|
+| Rastoča popularnost fitnesa in skupnostnih aplikacij | Konkurenca obstoječih platform, ki bi lahko uvedle podobne funkcije |
+| Možnost sodelovanja s fitnes centri in osebnimi trenerji | Težave pri zagotavljanju varnosti in zasebnosti podatkov |
+| Povečana potreba po digitalnih rešitvah za fitnes | Spreminjajoči se trendi in preferenc uporabnikov |
+| Širitev na mednarodne trge | Strogi predpisi o varstvu podatkov |
+
+### Strategije na podlagi SWOT analize
+
+- **S-O strategija:** Izkoristiti specifičnost platforme in napreden algoritem za hitro rast in prilagajanje uporabnikom.
+- **W-O strategija:** Sodelovanje s fitnes centri in trenerji za hitrejše pridobivanje kritične mase uporabnikov.
+- **S-T strategija:** Osredotočanje na varnost in zasebnost uporabnikov za povečanje zaupanja v aplikacijo.
+- **W-T strategija:** Graditi močno skupnost, ki bo zvesta aplikaciji tudi v primeru povečane konkurence.
+
+---
+
+## Poslovni model in osnovni finančni plan
+
+### Viri prihodkov
+
+- **Osnovna aplikacija je brezplačna**
+- **Premium članstvo (5€/mesec):** Naprednejše funkcije za iskanje partnerjev, dodatni filtri, podrobnejša analitika napredka
+- **Oglasi v brezplačni različici** (s poudarkom na fitnes industriji)
+- **Partnerstva s fitnes centri in trenerji** (promocijske ponudbe in naročniški modeli)
+- **Provizija od organiziranih fitnes dogodkov**
+
+### Struktura stroškov
+
+| Strošek | Znesek |
+|---------|--------|
+| Začetni razvoj | 1.000€ (večinoma delo ustanoviteljev) |
+| Mesečno vzdrževanje | 500€ (strežniki, podpora, posodobitve) |
+| Marketing | 700€ mesečno (spletno oglaševanje, sodelovanje z influencerji) |
+| Pravni stroški in varnost | 300€ mesečno |
+
+### Strategija pridobivanja prvih uporabnikov
+
+- Sodelovanje s **fitnes centri in osebnimi trenerji** za promocijo aplikacije
+- **Sodelovanje z influencerji** na področju fitnesa in zdravega načina življenja
+- **Akcija "povabi prijatelja"**, kjer oba pridobita 1 mesec premium članstva
+- **Organizacija lokalnih fitnes izzivov** z nagradami za povečanje angažiranosti
+
+---
+
