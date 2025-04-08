@@ -85,7 +85,6 @@ FitConnect omogoča **izmenjavo nasvetov in motivacije** znotraj skupnosti, kar 
 | Začetni razvoj | 1.000€ (večinoma delo ustanoviteljev) |
 | Mesečno vzdrževanje | 500€ (strežniki, podpora, posodobitve) |
 | Marketing | 700€ mesečno (spletno oglaševanje, sodelovanje z influencerji) |
-| Pravni stroški in varnost | 300€ mesečno |
 
 ### Strategija pridobivanja prvih uporabnikov
 
