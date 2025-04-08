@@ -76,7 +76,7 @@ FitConnect omogoča **izmenjavo nasvetov in motivacije** znotraj skupnosti, kar 
 - **Premium članstvo (5€/mesec):** Naprednejše funkcije za iskanje partnerjev, dodatni filtri, podrobnejša analitika napredka
 - **Oglasi v brezplačni različici** (s poudarkom na fitnes industriji)
 - **Partnerstva s fitnes centri in trenerji** (promocijske ponudbe in naročniški modeli)
-- **Provizija od organiziranih fitnes dogodkov**
+
 
 ### Struktura stroškov
 
