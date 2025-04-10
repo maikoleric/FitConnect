@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitConnect</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #7d32cc, #000000);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .content-wrapper {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 100px 200px;
+      border-radius: 30px;
+      text-align: center;
+      transform: translateY(-20%);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .logo {
+      font-size: 90px;
+      font-weight: bold;
+      color: #7d32cc;
+      margin-bottom: 40px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .btn {
+      padding: 30px 55px;
+      border-radius: 25px;
+      background-color: black;
+      color: #7d32cc;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 40px;
+      border: 5px solid #7d32cc;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #1a1a1a;
+      border-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-wrapper">
+    <div class="logo">Dobrodošli v FitConnect</div>
+    <div class="buttons">
+      <a href="/login" class="btn">Prijava</a>
+      <a href="/register" class="btn">Registracija</a>
+    </div>
+  </div>
+</body>
+</html>
