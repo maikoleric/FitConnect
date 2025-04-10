@@ -1,10 +1,15 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, session, url_for
+from models import db, User
+import os
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+app.config['SECRET_KEY'] = 'ja'
 
-@app.route('/')
-def domov():
-    return render_template('index.html', podatek ="vrednost")
+db.init_app(app)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# ===================== LANDING PAGE =====================
+@app.route('/landing')
+def landing():
+    return render_template('index.html')
+
