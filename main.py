@@ -21,3 +21,19 @@ def landing():
     country = location_data.get('country_name', 'neznano')
 
     return render_template('index.html', quote=quote, city=city, country=country)
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        db.insert({
+            'first_name': request.form['first_name'],
+            'last_name': request.form['last_name'],
+            'age': int(request.form['age']),
+            'experience': request.form['experience'],
+            'split': request.form['split'],
+            'gym_name': request.form['gym_name'],
+            'location': request.form['location'],
+            'password': request.form['password']
+        })
+        return redirect('/login')
+    return render_template('register.html')
