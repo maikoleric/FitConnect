@@ -37,3 +37,17 @@ def register():
         })
         return redirect('/login')
     return render_template('register.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        user = db.search(
+            (User.first_name == request.form['first_name']) &
+            (User.last_name == request.form['last_name']) &
+            (User.password == request.form['password'])
+        )
+        if user:
+            session['user'] = user[0]
+            return redirect('/users')
+        return "Napaka pri prijavi."
+    return render_template('login.html')
