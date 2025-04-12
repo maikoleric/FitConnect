@@ -51,3 +51,12 @@ def login():
             return redirect('/users')
         return "Napaka pri prijavi."
     return render_template('login.html')
+
+@app.route('/users')
+def users():
+    if 'user' not in session:
+        return redirect('/login')
+    return render_template('users.html', users=db.all())
+
+if __name__ == '__main__':
+    app.run(debug=True)
