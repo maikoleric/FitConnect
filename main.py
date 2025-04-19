@@ -44,7 +44,7 @@ def login():
         )
         if user:
             session['user'] = user[0]
-            return redirect('/users')
+            return redirect('/dashboard')
         return "Napaka pri prijavi."
     return render_template('login.html')
 
