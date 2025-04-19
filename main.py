@@ -28,7 +28,8 @@ def register():
             'split': request.form['split'],
             'gym_name': request.form['gym_name'],
             'location': request.form['location'],
-            'password': request.form['password']
+            'password': request.form['password'],
+            'contact' : request.form['contact']
         })
         return redirect('/login')
     return render_template('register.html')
