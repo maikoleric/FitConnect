@@ -15,12 +15,7 @@ def landing():
     'text': quote_data[0].get('q') or 'Vztrajaj, tudi ko je težko.',
     'author': quote_data[0].get('a') or 'Neznan'
 }
-
-    location_data = requests.get('https://ipapi.co/json/').json()
-    city = location_data.get('city', 'neznano')
-    country = location_data.get('country_name', 'neznano')
-
-    return render_template('index.html', quote=quote, city=city, country=country)
+    return render_template('index.html', quote=quote)
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
