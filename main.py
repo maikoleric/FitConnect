@@ -51,8 +51,21 @@ def login():
 @app.route('/users')
 def users():
     if 'user' not in session:
-        return redirect('/login')
+        return redirect('/dashboard')
     return render_template('users.html', users=db.all())
+
+@app.route('/dashboard')
+def dashboard():
+    if 'user' not in session:
+        return redirect('/login')
+    user = session['user']
+    return render_template('dashboard.html', user=user)
+
+@app.route('/logout')
+def logout():
+    session.pop('user', None)
+    return redirect('/')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

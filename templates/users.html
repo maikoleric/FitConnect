@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <title>Seznam uporabnikov – FitConnect</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #7d32cc, #000000);
+      font-family: Arial, sans-serif;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    .user-card {
+      background-color: black;
+      border: 2px solid #a357f2;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 15px auto;
+      width: 400px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    h1 {
+      color: #a357f2;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Seznam uporabnikov</h1>
+  {% for user in users %}
+  <div class="user-card">
+    <p><strong>{{ user.first_name }} {{ user.last_name }}</strong></p>
+    <p>Starost: {{ user.age }}</p>
+    <p>Split: {{ user.split }}</p>
+    <p>Fitnes: {{ user.gym_name }} ({{ user.location }})</p>
+    <p>Kontakt: {{user.contact}}</p>
+  </div>
+  {% endfor %}
+</body>
+</html>
