@@ -11,6 +11,12 @@
       padding: 40px;
       text-align: center;
     }
+    .user-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
     .user-card {
       background-color: black;
       border: 2px solid #a357f2;
@@ -28,6 +34,7 @@
 </head>
 <body>
   <h1>Seznam uporabnikov</h1>
+  <div class="user-grid">
   {% for user in users %}
   <div class="user-card">
     <p><strong>{{ user.first_name }} {{ user.last_name }}</strong></p>
