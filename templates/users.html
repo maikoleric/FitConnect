@@ -11,6 +11,37 @@
       padding: 40px;
       text-align: center;
     }
+    h1 {
+    color: #a357f2;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 3px solid #a357f2;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(163, 87, 242, 0.7); 
+  }
+    form {
+      margin-bottom: 30px;
+    }
+    select, button {
+      padding: 15px 30px;
+      border-radius: 25px;
+      background-color: black;
+      color: #a357f2;
+      font-weight: bold;
+      font-size: 18px;
+      border: 3px solid #a357f2;
+      cursor: pointer;
+      margin: 5px;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+    button:hover, select:hover {
+      background-color: #1a1a1a;
+      border-color: white;
+    }
     .user-grid {
       display: flex;
       flex-wrap: wrap;
@@ -22,18 +53,35 @@
       border: 2px solid #a357f2;
       border-radius: 15px;
       padding: 20px;
-      margin: 15px auto;
-      width: 400px;
+      width: 300px;
       box-shadow: 0 0 15px rgba(0,0,0,0.3);
-    }
-    h1 {
-      color: #a357f2;
-      margin-bottom: 30px;
+      text-align: left;
     }
   </style>
 </head>
 <body>
   <h1>Seznam uporabnikov</h1>
+
+  <form method="POST">
+    <select name="split">
+      <option value="">-- Izberi split program --</option>
+      <option value="push_pull_legs">Push Pull Legs</option>
+      <option value="upper_lower">Upper Lower</option>
+      <option value="full_body">Full Body</option>
+      <option value="bro_split">Bro Split</option>
+    </select>
+
+    <select name="location">
+      <option value="">-- Izberi lokacijo --</option>
+      <option value="Ljubljana">Ljubljana</option>
+      <option value="Maribor">Maribor</option>
+      <option value="Celje">Celje</option>
+      <option value="Koper">Koper</option>
+      <option value="Nova Gorica">Nova Gorica</option>
+    </select>
+
+    <button type="submit">Filtriraj</button>
+  </form>
   <div class="user-grid">
   {% for user in users %}
   <div class="user-card">
