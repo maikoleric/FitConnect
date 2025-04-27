@@ -51,8 +51,28 @@ def login():
 @app.route('/users')
 def users():
     if 'user' not in session:
-        return redirect('/dashboard')
-    return render_template('users.html', users=db.all())
+        return redirect('/login')
+    all_users = db.all()
+
+    if request.method == 'POST':
+        selected_split = request.form.get('split')
+        selected_location = request.form.get('location')
+        filtered_users = all_users
+        if selected_split:
+           new_list = []
+            for user in filtered_users:
+                if user['split'] == selected_split:
+                    new_list.append(user)
+            filtered_users = new_list
+
+        if selected_location:
+            new_list = []
+            for user in filtered_users:
+                if user['location'] == selected_location:
+                    new_list.append(user)
+            filtered_users = new_list 
+        return render_template('users.html', users=filtered_users)
+    return render_template('users.html', users=all_users)
 
 @app.route('/dashboard')
 def dashboard():
