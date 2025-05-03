@@ -57,9 +57,30 @@
       box-shadow: 0 0 15px rgba(0,0,0,0.3);
       text-align: left;
     }
+    .back-btn {
+      display: inline-block;
+      font-weight: bold;
+      font-size: 28px;
+      background-color: black;
+      border: 2px solid #a357f2;
+      color: #a357f2;
+      padding: 20px 25px;
+      border-radius: 50%;
+      text-decoration: none;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      transition: 0.3s;
+}
+
+    .back-btn:hover {
+      border-color: white;
+      color: white;
+}
   </style>
 </head>
 <body>
+  <a href="/dashboard" class="back-btn" title="Nazaj na profil">Profil</a>
   <h1>Seznam uporabnikov</h1>
 
   <form method="POST">
