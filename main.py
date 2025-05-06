@@ -61,11 +61,11 @@ def users():
         filtered_users = all_users
         
         if selected_split:
-           new_list = []
-        for user in filtered_users:
+            new_list = []
+            for user in filtered_users:
                 if user['split'] == selected_split:
                     new_list.append(user)
-        filtered_users = new_list
+            filtered_users = new_list
 
         if selected_location:
             new_list = []
@@ -76,18 +76,18 @@ def users():
 
         if selected_age:
             new_list = []
-        for user in filtered_users:
-            age = user['age']
-        if selected_age == '14-18':
-            if age >= 14 and age <= 18:
-                new_list.append(user)
-        if selected_age == '18-25':
-            if age > 18 and age <= 25:
-                new_list.append(user)
-        if selected_age == '25+':
-            if age > 25:
-                new_list.append(user)
-        filtered_users = new_list
+            for user in filtered_users:
+                age = user['age']
+                if selected_age == '14-18':
+                    if age >= 14 and age <= 18:
+                        new_list.append(user)
+                if selected_age == '18-25':
+                    if age > 18 and age <= 25:
+                        new_list.append(user)
+                if selected_age == '25+':
+                    if age > 25:
+                        new_list.append(user)
+            filtered_users = new_list
 
         return render_template('users.html', users=filtered_users)
     return render_template('users.html', users=all_users)
