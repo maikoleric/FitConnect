@@ -105,6 +105,34 @@ def logout():
     session.pop('user', None)
     return redirect('/')
 
+@app.route('/edit', methods=['GET', 'POST'])
+def edit_profile():
+    if 'user' not in session:
+        return redirect('/login')
+    
+    user = session['user']
+    user_id = db.search((User.first_name == user['first_name']) & 
+                        (User.last_name == user['last_name']) & 
+                        (User.password == user['password']))
+    
+    if request.method == 'POST':
+        updated_data = {
+            'first_name': request.form['first_name'],
+            'last_name': request.form['last_name'],
+            'age': int(request.form['age']),
+            'experience': request.form['experience'],
+            'split': request.form['split'],
+            'gym_name': request.form['gym_name'],
+            'location': request.form['location'],
+            'password': request.form['password'],
+            'contact': request.form['contact']
+        }
+        db.update(updated_data, doc_ids=[user_id[0].doc_id])
+        session['user'] = updated_data
+        return redirect('/dashboard')
+    
+    return render_template('edit.html', user=user)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
