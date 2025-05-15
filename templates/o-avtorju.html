@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O meni – FitConnect</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #7d32cc, #000000);
+      color: white;
+      margin: 0;
+      padding: 50px;
+      text-align: center;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      color: #a357f2;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 15px;
+      border-radius: 25px;
+      background-color: black;
+      color: #a357f2;
+      border: 3px solid #a357f2;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    button:hover {
+  background-color: #1a1a1a;
+  border-color: white;
+}
+.main-heading {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: black;
+  color: #a357f2;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: 2px solid #a357f2;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(163, 87, 242, 0.6);
+  transition: 0.3s;
+}
+
+.main-heading:hover {
+  color: white;
+  border-color: white;
+}
+
+  </style>
+</head>
+<body>
+  <a href="/users" class="main-heading" title="Nazaj na seznam uporabnikov">Seznam uporabnikov</a>
+  <div class="container">
+    <h1>O meni</h1>
+    <p>
+      Sem Mai Kolerič, navdušenec nad fitnesom, prehrano in povezovanjem ljudi. Svojo pot v svetu športa sem začel že na začetku osnovne šole. Najprej sem se ukvarjal z Florballom kjer sem se naučil in vzljubil sodelovanje z drugimi ljudmi, ter judo, ki pa je sicer individualen šport ampak te tudi nauči kako spoštovati druge in kako se pravilno prehranjevati. Ko sem prestopil prag srednje šole pa sem se aktivno začel ukvarjati z fitnesom, saj sem druge športe v procesu odraščanja opustil. Kasneje sem začel tudi z kickboxom in sedaj trenutno se ukvarjam z fitnesom, kickboxom ter tekom in hribolazenjem. Skozi vse izkušnje v športu sem se naučil kako zelo pomembno je imeti nekoga, ki stabo trenira in te spodbuja zato sem tudi prišel na idejo za Fitconnect. Vsaka oseba je zmožna doseči več z parterstvom in spodbujanjem zato poizkusi najti tukaj partnerja za treninge in kdo ve mogoče te res tukaj čakajo nova prijatelstva in spoznanja v katerih boš uspešno lahko dosegal/a svoje cilje. Z veseljem sodelujem tudi pri skupnih treningih, pripravi jedilnikov in deljenju znanja z drugimi.
+      Če želiš sodelovati z mano ali imaš kakršno koli vprašanje, mi piši preko obrazca spodaj. 
+    </p>
+    <form>
+      <input type="text" name="name" placeholder="Tvoje ime" required>
+      <input type="email" name="email" placeholder="Tvoj e-mail" required>
+      <textarea name="message" rows="4" placeholder="Sporočilo..." required></textarea>
+      <button type="submit">Pošlji sporočilo</button>
+    </form>
+  </div>
+</body>
+</html>

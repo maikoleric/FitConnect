@@ -133,6 +133,11 @@ def edit_profile():
     
     return render_template('edit.html', user=user)
 
+@app.route('/o-avtorju')
+def about():
+    return render_template('o-avtorju.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
